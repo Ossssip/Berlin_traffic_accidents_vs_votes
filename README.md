@@ -33,7 +33,8 @@ conda install -c conda-forge nbdime
 ```
 set up git integration
 ```
-nbdime config-git --enable --global```
+nbdime config-git --enable --global
+```
 Afterfords, you can use a web-based GUI to view the notebook diff, for example
 ```
 nbdiff-web 551d6ee 4210941
