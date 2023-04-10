@@ -8,7 +8,7 @@ Go to https://colab.research.google.com/github/, authorize yourself, tick "inclu
 
 ### Revision history and commiting changes
 - Apparently Colab already has built-in revision history tool, it is under File->Revision history
-- When some changes to notebook a made (or a new notebook file created), you can commit it to the repo using File->Save a copy in Github
+- When some changes to notebook are made (or a new notebook file created), you can commit it to the repo using File->Save a copy in Github
 
 ## Running on local PC
 I run Jupyter Notebook from Anaconda on a Windows machine, here are the steps I made:
@@ -35,7 +35,7 @@ set up git integration
 ```
 nbdime config-git --enable --global
 ```
-Afterfords, you can use a web-based GUI to view the notebook diff, for example
+Afterwards, you can use a web-based GUI to view the notebook diff, for example
 ```
 nbdiff-web 551d6ee 4210941
 ```
